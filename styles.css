@@ -1,4 +1,5 @@
-/* esta es una prueba para saber si el css esta bien conectado*/
-body {
-  background-color: blueviolet;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
