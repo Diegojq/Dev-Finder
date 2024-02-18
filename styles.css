@@ -15,7 +15,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 32.7rem;
+  width: 32.7rem;
   margin: 3.1rem auto 0;
 }
 
@@ -30,10 +30,50 @@ html {
   width: 8.9rem;
   height: 2rem;
   gap: 1.6rem;
+  background-color: transparent;
+  border: none;
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.25rem;
-  background-color: transparent;
   color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 32.7rem;
+  height: 6rem;
+  margin-top: 3.6rem;
+  background-color: rgba(30, 42, 71, 1);
+  border-radius: 0.8rem;
+}
+
+.search__icon {
+  margin-left: 1.6rem;
+}
+
+.search__input {
+  margin-left: 0.9rem;
+  background-color: transparent;
   border: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: red;
+}
+
+.search__button {
+  margin-left: 0.7rem;
+  width: 8.4rem;
+  height: 4.6rem;
+  background-color: rgba(0, 121, 255, 1);
+  border-radius: 0.8rem;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
 }
