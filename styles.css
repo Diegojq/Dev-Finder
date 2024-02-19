@@ -40,7 +40,8 @@ html {
 
 .main {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .search {
@@ -76,4 +77,88 @@ html {
   font-size: 1.4rem;
   font-weight: 700;
   color: white;
+}
+
+.profile {
+  margin-top: 1.6rem;
+  padding-left: 2.4rem;
+  width: 32.7rem;
+  height: 51.7rem;
+  background-color: rgba(30, 42, 71, 1);
+  border-radius: 0.9rem;
+}
+
+.profile__info {
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.container-details {
+  margin-left: 2rem;
+}
+
+.profile__name {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.profile__username {
+  color: rgba(0, 121, 255, 1);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.profile__joined {
+  margin-top: 0.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.profile__description {
+  margin-top: 3.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.profile__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 27.9rem;
+  height: 8.5rem;
+  margin-top: 2.3rem;
+  padding: 0 1.5rem 0;
+  border-radius: 0.8rem;
+  background-color: rgba(20, 29, 47, 1);
+}
+
+.profile__stat {
+  text-align: center;
+}
+
+.profile__stat p {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.profile__stat span {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.profile__details {
+  margin-top: 2.4rem;
+}
+
+.profile__detail {
+  margin-bottom: 1.6rem;
+}
+
+.profile__span {
+  margin-left: 1.9rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
 }
