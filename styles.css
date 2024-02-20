@@ -7,8 +7,15 @@
 html {
   font-family: "space Mono";
   font-size: 62.5%;
-  background-color: #141d2f;
-  color: white;
+  background-color: var(--navy-blue);
+  color: var(--white);
+}
+
+:root {
+  --primary-blue: rgba(0, 121, 255, 1);
+  --white: rgba(255, 255, 255, 1);
+  --dark-blue: rgba(30, 42, 71, 1);
+  --navy-blue: rgba(20, 29, 47, 1);
 }
 
 .header {
@@ -35,7 +42,7 @@ html {
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.25rem;
-  color: white;
+  color: var(--white);
 }
 
 .main {
@@ -50,7 +57,7 @@ html {
   width: 32.7rem;
   height: 6rem;
   margin-top: 3.6rem;
-  background-color: rgba(30, 42, 71, 1);
+  background-color: var(--dark-blue);
   border-radius: 0.8rem;
 }
 
@@ -71,7 +78,7 @@ html {
   margin-left: 0.7rem;
   width: 8.4rem;
   height: 4.6rem;
-  background-color: rgba(0, 121, 255, 1);
+  background-color: var(--primary-blue);
   border-radius: 0.8rem;
   border: none;
   font-size: 1.4rem;
@@ -84,7 +91,7 @@ html {
   padding-left: 2.4rem;
   width: 32.7rem;
   height: 51.7rem;
-  background-color: rgba(30, 42, 71, 1);
+  background-color: var(--dark-blue);
   border-radius: 0.9rem;
 }
 
@@ -103,7 +110,7 @@ html {
 }
 
 .profile__username {
-  color: rgba(0, 121, 255, 1);
+  color: var(--primary-blue);
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -129,7 +136,7 @@ html {
   margin-top: 2.3rem;
   padding: 0 1.5rem 0;
   border-radius: 0.8rem;
-  background-color: rgba(20, 29, 47, 1);
+  background-color: var(--navy-blue);
 }
 
 .profile__stat {
@@ -159,6 +166,6 @@ html {
   margin-left: 1.9rem;
   font-size: 1.3rem;
   font-weight: 400;
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
