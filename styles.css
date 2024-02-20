@@ -64,9 +64,11 @@ body {
 .search {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 32.7rem;
   height: 6rem;
   margin-top: 3.6rem;
+  padding-right: 1rem;
   background-color: var(--dark-blue);
   border-radius: 0.8rem;
 }
@@ -107,11 +109,17 @@ body {
 
 .profile__info {
   display: flex;
+  align-items: center;
   margin-top: 3.2rem;
 }
 
 .container-details {
   margin-left: 2rem;
+}
+
+.profile__image {
+  width: 7rem;
+  height: 7rem;
 }
 
 .profile__name {
@@ -141,6 +149,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  justify-content: space-between;
   width: 27.9rem;
   height: 8.5rem;
   margin-top: 2.3rem;
@@ -182,4 +191,7 @@ body {
   font-weight: 400;
   color: var(--white);
   text-decoration: none;
+}
+
+@media screen and (min-width: 35.7rem) {
 }
