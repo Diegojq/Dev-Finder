@@ -4,6 +4,10 @@
   }
 
   .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 57.3rem;
     height: 6.9rem;
   }

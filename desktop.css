@@ -1,0 +1,67 @@
+@media screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .header {
+    width: 73rem;
+  }
+
+  .search {
+    width: 73rem;
+    height: 6.9rem;
+  }
+
+  .search__input {
+    margin-left: 2.4rem;
+    font-size: 1.8rem;
+  }
+
+  .search__button {
+    margin-left: 12.3rem;
+    width: 10.6rem;
+    height: 5rem;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
+    position: relative;
+    width: 73rem;
+    height: 44.4rem;
+  }
+
+  .container-details {
+    margin-left: 0rem;
+  }
+
+  .profile-container {
+    width: 48rem;
+  }
+
+  .profile__image {
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+  }
+
+  .profile__description {
+    margin-top: 2rem;
+  }
+
+  .profile__stats {
+    width: 48rem;
+    margin-top: 3.2rem;
+  }
+
+  .profile__details {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 2.4rem;
+  }
+}
