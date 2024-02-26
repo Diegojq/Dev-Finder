@@ -3,28 +3,21 @@
     width: 57.3rem;
   }
 
-  .search {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  .search__input {
+    padding: 0rem 23.9rem 0rem 8rem;
     width: 57.3rem;
     height: 6.9rem;
+    font-size: 1.8rem;
   }
 
   .search__icon {
-    margin-left: 3.2rem;
+    left: 12rem;
     width: 2.4rem;
     height: 2.4rem;
   }
 
-  .search__input {
-    margin-left: 2.4rem;
-    font-size: 1.8rem;
-  }
-
   .search__button {
-    margin-left: 12.3rem;
+    left: 70rem;
     width: 10.6rem;
     height: 5rem;
   }

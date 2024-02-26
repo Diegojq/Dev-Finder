@@ -11,18 +11,20 @@
     width: 73rem;
   }
 
-  .search {
+  .search__input {
     width: 73rem;
     height: 6.9rem;
-  }
-
-  .search__input {
-    margin-left: 2.4rem;
     font-size: 1.8rem;
   }
 
+  .search__icon {
+    top: 29rem;
+    left: 48rem;
+  }
+
   .search__button {
-    margin-left: 12.3rem;
+    top: 27.6rem;
+    left: 106rem;
     width: 10.6rem;
     height: 5rem;
   }
