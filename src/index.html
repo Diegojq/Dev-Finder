@@ -16,7 +16,7 @@
   <body>
     <header class="header">
       <h1 class="header__title">devfinder</h1>
-      <button id="buttonDark" class="header__button">
+      <button id="btn-dark" class="header__button">
         LIGHT
         <img
           class="header__icon"
@@ -31,7 +31,7 @@
           type="search"
           name=""
           class="search__input"
-          id=""
+          id="input-search"
           placeholder="Search GitHub username…"
         />
         <img
@@ -49,9 +49,11 @@
               <img class="profile__image" src="./assets/img/Oval.svg" alt="" />
             </figure>
             <div class="container-details">
-              <h2 class="profile__name">The Octocat</h2>
-              <p class="profile__username"><span>@octocat</span></p>
-              <p class="profile__joined">joined <span>25 jan 2011</span></p>
+              <h2 class="profile__name" id="profile-name">The Octocat</h2>
+              <p class="profile__username" id="profile-username">@octocat</p>
+              <p class="profile__joined">
+                <span id="profile-joined"> Joined 25 jan 2011</span>
+              </p>
             </div>
           </div>
 
