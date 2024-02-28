@@ -11,7 +11,7 @@ html {
 
 :root {
   --primary-blue: rgba(0, 121, 255, 1);
-  --white: rgba(255, 255, 255, 1);
+  --color-text: rgba(255, 255, 255, 1);
   --dark-blue: rgba(30, 42, 71, 1);
   --navy-blue: rgba(20, 29, 47, 1);
 }
@@ -20,12 +20,12 @@ html {
   --primary-blue: rgba(96, 171, 255, 1);
   --navy-blue: rgba(246, 248, 255, 1);
   --dark-blue: rgba(255, 255, 255, 1);
-  --white: rgba(75, 106, 155, 1);
+  --color-text: rgba(75, 106, 155, 1);
 }
 
 body {
   background-color: var(--navy-blue);
-  color: var(--white);
+  color: var(--color-text);
 }
 
 .header {
@@ -52,7 +52,7 @@ body {
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.25rem;
-  color: var(--white);
+  color: var(--color-text);
 }
 
 .main {
@@ -96,12 +96,12 @@ body {
   border: none;
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--white);
+  color: var(--color-text);
 }
 
 .profile {
   margin-top: 1.6rem;
-  padding-left: 2.4rem;
+  padding: 0rem 2.4rem 0rem 2.4rem;
   width: 32.7rem;
   height: 51.7rem;
   background-color: var(--dark-blue);
@@ -183,14 +183,19 @@ body {
 }
 
 .profile__detail img {
-  color: var(--white);
+  color: var(--color-text);
+}
+
+.detail__icon {
+  width: 2rem;
+  height: 2rem;
 }
 
 .profile__span {
   margin-left: 1.9rem;
   font-size: 1.3rem;
   font-weight: 400;
-  color: var(--white);
+  color: var(--color-text);
   text-decoration: none;
 }
 
@@ -263,6 +268,7 @@ body {
   .profile__details {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    gap: 0rem 6.5rem;
     margin-top: 2.4rem;
   }
 }
