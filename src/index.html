@@ -39,6 +39,7 @@
           src="./assets/icons/Shape 2.svg"
           alt="Lupa buscador"
         />
+        <span id="span-results" class="search__span"></span>
         <button id="btn-search" class="search__button">Search</button>
       </div>
 
@@ -46,7 +47,12 @@
         <div class="profile-container">
           <div class="profile__info">
             <figure>
-              <img class="profile__image" src="./assets/img/Oval.svg" alt="" />
+              <img
+                class="profile__image"
+                id="profile-image"
+                src="./assets/img/Oval.svg"
+                alt=""
+              />
             </figure>
             <div class="container-details">
               <h2 class="profile__name" id="profile-name">The Octocat</h2>
@@ -58,7 +64,7 @@
           </div>
 
           <p class="profile__description">
-            <span>
+            <span id="profile-description">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
               odio. Quisque volutpat mattis eros.
             </span>
@@ -67,24 +73,26 @@
           <div class="profile__stats">
             <div class="profile__stat">
               <p>Repos</p>
-              <span>8</span>
+              <span id="public-repos">8</span>
             </div>
 
             <div class="profile__stat">
               <p>Followers</p>
-              <span>332</span>
+              <span id="followers">332</span>
             </div>
 
             <div class="profile__stat">
               <p>following</p>
-              <span>8</span>
+              <span id="following">8</span>
             </div>
           </div>
 
           <div class="profile__details">
             <div class="profile__detail">
               <img class="" src="./assets/icons/003-pin.svg" alt="" />
-              <span class="profile__span">San Francisco</span>
+              <span class="profile__span" id="user-location"
+                >San Francisco</span
+              >
             </div>
             <div class="profile__detail">
               <img
@@ -92,7 +100,9 @@
                 src="./assets/icons/002-url.svg"
                 alt=""
               />
-              <a class="profile__span" href="">https://github.blog</a>
+              <a class="profile__span" href="" id="user-blog"
+                >https://github.blog</a
+              >
             </div>
             <div class="profile__detail">
               <img
@@ -100,7 +110,7 @@
                 src="./assets/icons/004-twitter.svg"
                 alt=""
               />
-              <span class="profile__span">Not available</span>
+              <span class="profile__span" id="user-tiwtter">Not available</span>
             </div>
             <div class="profile__detail">
               <img
@@ -108,7 +118,7 @@
                 src="./assets/icons/001-office-building.svg"
                 alt=""
               />
-              <span class="profile__span">@github</span>
+              <span class="profile__span" id="user-company">@github</span>
             </div>
           </div>
         </div>
