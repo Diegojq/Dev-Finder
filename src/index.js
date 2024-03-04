@@ -28,12 +28,13 @@ async function searchUser() {
     const response = await fetch(
       `https://api.github.com/users/${inputSearch.value}`
     );
+    if (!response.ok) {
+      throw new Error("No results");
+    }
     const data = await response.json();
     resetUi(data);
-    console.log(data);
   } catch (error) {
     spanResults.innerText = "No results";
-    console.error(error);
   }
 }
 
