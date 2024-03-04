@@ -79,6 +79,15 @@ body {
   font-weight: 400;
 }
 
+.search__input:focus {
+  outline: none;
+  color: var(--color-text);
+}
+
+.search__input:-webkit-autofill {
+  background-color: inherit !important;
+}
+
 .search__icon {
   position: absolute;
   top: 5.5rem;
@@ -88,7 +97,9 @@ body {
 .search__span {
   position: absolute;
   top: 6rem;
-  left: 15rem;
+  left: 14rem;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: red;
 }
 
@@ -225,6 +236,10 @@ body {
     height: 2.4rem;
   }
 
+  .search__span {
+    left: 35rem;
+  }
+
   .search__button {
     left: 45.5rem;
     width: 10.6rem;
@@ -303,6 +318,10 @@ body {
   .search__icon {
     top: 5.5rem;
     left: 3rem;
+  }
+
+  .search__span {
+    left: 50rem;
   }
 
   .search__button {
