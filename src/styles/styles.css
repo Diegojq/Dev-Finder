@@ -55,6 +55,11 @@ body {
   color: var(--color-text);
 }
 
+.header__icon {
+  position: absolute;
+  right: 21rem;
+}
+
 .main {
   display: flex;
   align-items: center;
