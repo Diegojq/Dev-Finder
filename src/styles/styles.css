@@ -58,6 +58,7 @@ body {
 .header__icon {
   position: absolute;
   right: 21rem;
+  color: var(--color-text);
 }
 
 .main {
@@ -137,10 +138,6 @@ body {
   margin-top: 3.2rem;
 }
 
-.container-details {
-  margin-left: 2rem;
-}
-
 .profile__image {
   width: 7rem;
   height: 7rem;
@@ -203,6 +200,7 @@ body {
 }
 
 .profile__detail {
+  display: flex;
   margin-bottom: 1.6rem;
 }
 
