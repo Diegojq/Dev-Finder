@@ -29,11 +29,11 @@ function moon() {
 
   if (document.body.classList.contains("light")) {
     buttonDark.innerHTML = "Dark";
-    icon.src = "./assets/icons/moon.svg";
+    icon.src = "./assets/icons/moon-min.svg";
     icon.alt = "icono luna";
   } else {
     buttonDark.innerHTML = "LIGHT";
-    icon.src = "./assets/icons/002-sun.svg";
+    icon.src = "./assets/icons/002-sun-min.svg";
     icon.alt = "icono sol";
   }
 }
