@@ -21,6 +21,21 @@ buttonSearch.addEventListener("click", searchUser);
 
 function toggleDarkMode() {
   document.body.classList.toggle("light");
+  moon(buttonDark);
+}
+
+function moon() {
+  const icon = document.querySelector(".header__icon");
+
+  if (document.body.classList.contains("light")) {
+    buttonDark.textContent = "Dark";
+    icon.src = "./assets/icons/moon.svg";
+    icon.alt = "icono sol";
+  } else {
+    buttonDark.textContent = "LIGHT";
+    icon.src = "./assets/icons/002-sun.svg";
+    icon.alt = "icono luna";
+  }
 }
 
 async function searchUser() {
