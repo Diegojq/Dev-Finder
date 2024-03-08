@@ -52,7 +52,7 @@ async function searchUser() {
     spanResults.style.background = "transparent";
   } catch (error) {
     spanResults.innerText = "No results";
-    spanResults.style.background = "#fff";
+    spanResults.style.background = "var(--dark-blue)";
   }
 }
 
