@@ -255,10 +255,14 @@ body {
   }
 
   .search__span {
-    left: 35rem;
+    top: 4.5rem;
+    left: 34.8rem;
+    width: 10.6rem;
+    height: 5rem;
   }
 
   .search__button {
+    top: 4.5rem;
     left: 45.5rem;
     width: 10.6rem;
     height: 5rem;
@@ -339,7 +343,10 @@ body {
   }
 
   .search__span {
+    top: 4.5rem;
     left: 50rem;
+    width: 10.6rem;
+    height: 5rem;
   }
 
   .search__button {
