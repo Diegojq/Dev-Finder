@@ -41,6 +41,11 @@ body {
   font-weight: 700;
 }
 
+.container-btn {
+  display: flex;
+  position: relative;
+}
+
 .header__button {
   display: flex;
   align-items: center;
@@ -57,7 +62,7 @@ body {
 
 .header__icon {
   position: absolute;
-  right: 21rem;
+  right: 1rem;
   color: var(--color-text);
 }
 
