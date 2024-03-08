@@ -101,9 +101,15 @@ body {
 }
 
 .search__span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 6rem;
+  top: 4.2rem;
   left: 14rem;
+  width: 9rem;
+  height: 4.6rem;
+  border-radius: 0.8rem;
   font-size: 1.3rem;
   font-weight: 700;
   color: red;
@@ -136,6 +142,10 @@ body {
   display: flex;
   align-items: center;
   margin-top: 3.2rem;
+}
+
+.container-details {
+  margin-left: 1.9rem;
 }
 
 .profile__image {

@@ -48,8 +48,11 @@ async function searchUser() {
     }
     const data = await response.json();
     resetUi(data);
+    spanResults.innerText = "";
+    spanResults.style.background = "transparent";
   } catch (error) {
     spanResults.innerText = "No results";
+    spanResults.style.background = "#fff";
   }
 }
 
