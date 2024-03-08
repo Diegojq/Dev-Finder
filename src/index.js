@@ -111,6 +111,6 @@ function resetUi(data) {
 
 inputSearch.addEventListener("keypress", (event) => {
   if (event.key === "Enter") {
-    resetUi();
+    searchUser();
   }
 });
