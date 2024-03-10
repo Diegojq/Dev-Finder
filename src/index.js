@@ -16,6 +16,21 @@ const userBlog = document.getElementById("user-blog");
 const userTiwtter = document.getElementById("user-tiwtter");
 const userCompany = document.getElementById("user-company");
 
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
 function toggleDarkMode() {
   document.body.classList.toggle("light");
   handleChangeIcon(buttonDark);
@@ -52,21 +67,6 @@ async function searchUser() {
     spanResults.style.background = "var(--dark-blue)";
   }
 }
-
-const months = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
 
 function formatJoinedDate(dateString) {
   const date = new Date(dateString);
