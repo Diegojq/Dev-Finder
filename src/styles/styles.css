@@ -96,10 +96,6 @@ body {
   color: var(--secondary-color);
 }
 
-.search__input:-webkit-autofill {
-  background-color: inherit !important;
-}
-
 .search__icon {
   position: absolute;
   top: 5.5rem;
