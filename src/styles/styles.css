@@ -14,6 +14,7 @@ html {
   --secondary-color: rgba(255, 255, 255, 1);
   --tertiary-color: rgba(30, 42, 71, 1);
   --quaternary-color: rgba(20, 29, 47, 1);
+  --no-result: red;
 }
 
 .light {
@@ -117,7 +118,7 @@ body {
   border-radius: 0.8rem;
   font-size: 1.3rem;
   font-weight: 700;
-  color: red;
+  color: var(--no-result);
 }
 
 .search__button {
