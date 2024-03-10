@@ -196,13 +196,13 @@ body {
   text-align: center;
 }
 
-.profile__stat p {
+.profile__p {
   margin-bottom: 0.8rem;
   font-size: 1.1rem;
   font-weight: 400;
 }
 
-.profile__stat span {
+.profile__span {
   font-size: 1.6rem;
   font-weight: 700;
 }
