@@ -16,15 +16,12 @@ const userBlog = document.getElementById("user-blog");
 const userTiwtter = document.getElementById("user-tiwtter");
 const userCompany = document.getElementById("user-company");
 
-buttonDark.addEventListener("click", toggleDarkMode);
-buttonSearch.addEventListener("click", searchUser);
-
 function toggleDarkMode() {
   document.body.classList.toggle("light");
-  moon(buttonDark);
+  handleChangeIcon(buttonDark);
 }
 
-function moon() {
+function handleChangeIcon() {
   const icon = document.querySelector(".header__icon");
 
   if (document.body.classList.contains("light")) {
@@ -109,6 +106,8 @@ function resetUi(data) {
   userCompany.textContent = company;
 }
 
+buttonDark.addEventListener("click", toggleDarkMode);
+buttonSearch.addEventListener("click", searchUser);
 inputSearch.addEventListener("keypress", (event) => {
   if (event.key === "Enter") {
     searchUser();
