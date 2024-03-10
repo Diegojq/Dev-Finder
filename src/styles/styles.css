@@ -10,22 +10,22 @@ html {
 }
 
 :root {
-  --primary-blue: rgba(0, 121, 255, 1);
-  --color-text: rgba(255, 255, 255, 1);
-  --dark-blue: rgba(30, 42, 71, 1);
-  --navy-blue: rgba(20, 29, 47, 1);
+  --primary-color: rgba(0, 121, 255, 1);
+  --secondary-color: rgba(255, 255, 255, 1);
+  --tertiary-color: rgba(30, 42, 71, 1);
+  --quaternary-color: rgba(20, 29, 47, 1);
 }
 
 .light {
-  --primary-blue: rgba(96, 171, 255, 1);
-  --navy-blue: rgba(246, 248, 255, 1);
-  --dark-blue: rgba(255, 255, 255, 1);
-  --color-text: rgba(75, 106, 155, 1);
+  --primary-color: rgba(96, 171, 255, 1);
+  --quaternary-color: rgba(246, 248, 255, 1);
+  --tertiary-color: rgba(255, 255, 255, 1);
+  --secondary-color: rgba(75, 106, 155, 1);
 }
 
 body {
-  background-color: var(--navy-blue);
-  color: var(--color-text);
+  background-color: var(--quaternary-color);
+  color: var(--secondary-color);
 }
 
 .header {
@@ -57,13 +57,13 @@ body {
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.25rem;
-  color: var(--color-text);
+  color: var(--secondary-color);
 }
 
 .header__icon {
   position: absolute;
   right: 1rem;
-  color: var(--color-text);
+  color: var(--secondary-color);
 }
 
 .main {
@@ -83,7 +83,7 @@ body {
   height: 6rem;
   margin-top: 3.6rem;
   padding: 0rem 9.8rem 0rem 4.5rem;
-  background-color: var(--dark-blue);
+  background-color: var(--tertiary-color);
   border-radius: 0.8rem;
   border: none;
   font-size: 1.3rem;
@@ -92,7 +92,7 @@ body {
 
 .search__input:focus {
   outline: none;
-  color: var(--color-text);
+  color: var(--secondary-color);
 }
 
 .search__input:-webkit-autofill {
@@ -126,12 +126,12 @@ body {
   left: 23rem;
   width: 8.4rem;
   height: 4.6rem;
-  background-color: var(--primary-blue);
+  background-color: var(--primary-color);
   border-radius: 0.8rem;
   border: none;
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--color-text);
+  color: var(--secondary-color);
 }
 
 .profile {
@@ -139,7 +139,7 @@ body {
   padding: 0rem 2.4rem 0rem 2.4rem;
   width: 32.7rem;
   height: 51.7rem;
-  background-color: var(--dark-blue);
+  background-color: var(--tertiary-color);
   border-radius: 0.9rem;
 }
 
@@ -165,7 +165,7 @@ body {
 }
 
 .profile__username {
-  color: var(--primary-blue);
+  color: var(--primary-color);
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -192,7 +192,7 @@ body {
   margin-top: 2.3rem;
   padding: 0 1.5rem 0;
   border-radius: 0.8rem;
-  background-color: var(--navy-blue);
+  background-color: var(--quaternary-color);
 }
 
 .profile__stat {
@@ -220,7 +220,7 @@ body {
 }
 
 .profile__detail img {
-  color: var(--color-text);
+  color: var(--secondary-color);
 }
 
 .detail__icon {
@@ -232,7 +232,7 @@ body {
   margin-left: 1.9rem;
   font-size: 1.3rem;
   font-weight: 400;
-  color: var(--color-text);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -405,7 +405,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: var(--color-text);
+  -webkit-text-fill-color: var(--secondary-color);
   -webkit-background-clip: text;
-  -webkit-box-shadow: 0 0 0px 1000px var(--dark-blue) inset;
+  -webkit-box-shadow: 0 0 0px 1000px var(--tertiary-color) inset;
 }
