@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Finder</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">devfinder</h1>
+      <div class="container-btn">
+        <button id="btn-dark" class="header__button">LIGHT</button>
+        <img
+          class="header__icon"
+          src="./assets/icons/002-sun-min.svg"
+          alt="icono sol"
+        />
+      </div>
+    </header>
+    <main class="main">
+      <div class="search-container">
+        <input
+          type="text"
+          name=""
+          class="search__input"
+          id="input-search"
+          placeholder="Search GitHub username…"
+        />
+        <img
+          class="search__icon"
+          src="./assets/icons/Shape 2-min.svg"
+          alt="Lupa buscador"
+        />
+        <span id="span-results" class="search__span"></span>
+        <button id="btn-search" class="search__button">Search</button>
+      </div>
+
+      <div class="profile">
+        <div class="profile-container">
+          <div class="profile__info">
+            <figure>
+              <img
+                class="profile__image"
+                id="profile-image"
+                src="./assets/img/Oval-min.svg"
+                alt="iamgen de perfil"
+              />
+            </figure>
+            <div class="container-details">
+              <h2 class="profile__name" id="profile-name">The Octocat</h2>
+              <p class="profile__username" id="profile-username">@octocat</p>
+              <p class="profile__joined">
+                <span id="profile-joined"> Joined 25 jan 2011</span>
+              </p>
+            </div>
+          </div>
+
+          <p class="profile__description">
+            <span id="profile-description">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+              odio. Quisque volutpat mattis eros.
+            </span>
+          </p>
+
+          <div class="profile__stats">
+            <div class="profile__stat">
+              <p class="profile__p">Repos</p>
+              <span class="profile__span" id="public-repos">8</span>
+            </div>
+
+            <div class="profile__stat">
+              <p class="profile__p">Followers</p>
+              <span class="profile__span" id="followers">332</span>
+            </div>
+
+            <div class="profile__stat">
+              <p class="profile__p">following</p>
+              <span class="profile__span" id="following">8</span>
+            </div>
+          </div>
+
+          <div class="profile__details">
+            <div class="profile__detail">
+              <svg
+                width="14"
+                height="20"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.03.002c2.398.048 4.554 1.328 5.767 3.423a6.963 6.963 0 0 1 .091 6.88l-4.96 9.077-.006.012c-.218.38-.61.606-1.046.606-.436 0-.827-.226-1.045-.606l-.007-.012-4.96-9.077a6.963 6.963 0 0 1 .091-6.88C2.17 1.33 4.325.05 6.722.002c.103-.003.206-.003.308 0zM4.064 6.25a2.816 2.816 0 0 0 2.812 2.813A2.816 2.816 0 0 0 9.69 6.25a2.816 2.816 0 0 0-2.813-2.812A2.816 2.816 0 0 0 4.064 6.25z"
+                  fill="currentColor"
+                />
+                .profile__stat span
+              </svg>
+              <span class="profile__span" id="user-location"
+                >San Francisco</span
+              >
+            </div>
+            <div class="profile__detail">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.404 5.012c-2.356 2.437-1.841 6.482.857 8.273.089.06.207.048.283-.027.568-.555 1.049-1.092 1.47-1.776a.213.213 0 0 0-.084-.3A2.744 2.744 0 0 1 8.878 10.1a2.64 2.64 0 0 1-.224-1.803c.169-.815 1.044-1.573 1.712-2.274l-.004-.002 2.504-2.555a2.568 2.568 0 0 1 3.648-.019 2.6 2.6 0 0 1 .037 3.666l-1.517 1.56a.266.266 0 0 0-.06.272c.35 1.013.435 2.441.201 3.52-.006.03.03.05.053.028l3.228-3.295c2.062-2.105 2.044-5.531-.04-7.615a5.416 5.416 0 0 0-7.691.04L7.417 4.998l-.013.014z"
+                  fill="currentColor"
+                />
+                <path
+                  class="detail__icon"
+                  d="m13.439 13.75.006-.003c.659-1.204.788-2.586.48-3.933l-.002.002h-.001a5.434 5.434 0 0 0-2.19-3.125.3.3 0 0 0-.332.015c-.554.448-1.096 1.022-1.453 1.754a.243.243 0 0 0 .097.317c.414.24.789.593 1.04 1.062.196.33.388.957.263 1.631-.116.894-1.019 1.714-1.736 2.453-.546.559-1.935 1.974-2.49 2.542a2.6 2.6 0 0 1-3.666.038 2.6 2.6 0 0 1-.038-3.666l1.521-1.565A.266.266 0 0 0 5 11.004c-.338-1.036-.43-2.432-.217-3.51.006-.03-.031-.049-.053-.027l-3.179 3.245c-2.083 2.127-2.066 5.588.04 7.693 2.125 2.083 5.57 2.048 7.653-.078.723-.81 3.821-3.678 4.195-4.577z"
+                  fill="currentColor"
+                />
+              </svg>
+              <a class="profile__span" href="" id="user-blog"
+                >https://github.blog</a
+              >
+            </div>
+            <div class="profile__detail">
+              <svg
+                width="20"
+                height="18"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 2.799a8.55 8.55 0 0 1-2.363.647 4.077 4.077 0 0 0 1.804-2.266 8.194 8.194 0 0 1-2.6.992A4.099 4.099 0 0 0 9.75 4.976c0 .325.027.638.095.935-3.409-.166-6.425-1.8-8.451-4.288A4.128 4.128 0 0 0 .83 3.694c0 1.42.732 2.679 1.821 3.407A4.05 4.05 0 0 1 .8 6.597v.045a4.119 4.119 0 0 0 3.285 4.03 4.09 4.09 0 0 1-1.075.134c-.262 0-.527-.015-.776-.07.531 1.624 2.038 2.818 3.831 2.856a8.239 8.239 0 0 1-5.084 1.75c-.336 0-.658-.016-.981-.057a11.544 11.544 0 0 0 6.29 1.84c7.545 0 11.67-6.25 11.67-11.668 0-.18-.006-.356-.015-.53A8.18 8.18 0 0 0 20 2.8z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span class="profile__span" id="user-tiwtter">Not available</span>
+            </div>
+            <div class="profile__detail">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.858 1.558 1.7.167A1.477 1.477 0 0 0 .517.492 1.49 1.49 0 0 0 0 1.608v17.559c0 .458.375.833.833.833h2.709v-4.375c0-.808.65-1.458 1.458-1.458h2.083c.809 0 1.459.65 1.459 1.458V20h3.541V3a1.46 1.46 0 0 0-1.225-1.442zM4.583 12.292h-1.25a.625.625 0 0 1 0-1.25h1.25a.625.625 0 0 1 0 1.25zm-1.25-2.5h1.25a.625.625 0 0 0 0-1.25h-1.25a.625.625 0 0 0 0 1.25zm1.25-2.5h-1.25a.625.625 0 0 1 0-1.25h1.25a.625.625 0 0 1 0 1.25zm-1.25-2.5h1.25a.625.625 0 0 0 0-1.25h-1.25a.625.625 0 0 0 0 1.25zm5.417 7.5H7.5a.625.625 0 0 1 0-1.25h1.25a.625.625 0 0 1 0 1.25zm-1.25-2.5h1.25a.625.625 0 0 0 0-1.25H7.5a.625.625 0 0 0 0 1.25zm1.25-2.5H7.5a.625.625 0 0 1 0-1.25h1.25a.625.625 0 0 1 0 1.25zm-1.25-2.5h1.25a.625.625 0 0 0 0-1.25H7.5a.625.625 0 0 0 0 1.25zM12.917 7.792l5.933 1.243c.68.15 1.15.737 1.15 1.425v8.082A1.46 1.46 0 0 1 18.542 20h-5.625V7.792zm2.708 9.708h1.25a.625.625 0 0 0 0-1.25h-1.25a.625.625 0 0 0 0 1.25zm1.25-2.5h-1.25a.625.625 0 0 1 0-1.25h1.25a.625.625 0 0 1 0 1.25zm-1.25-2.5h1.25a.625.625 0 0 0 0-1.25h-1.25a.625.625 0 0 0 0 1.25z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span class="profile__span" id="user-company">@github</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
