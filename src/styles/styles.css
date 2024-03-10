@@ -87,6 +87,7 @@ body {
   background-color: var(--tertiary-color);
   border-radius: 0.8rem;
   border: none;
+  color: var(--secondary-color);
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -214,10 +215,6 @@ body {
 .profile__detail {
   display: flex;
   margin-bottom: 1.6rem;
-}
-
-.profile__detail img {
-  color: var(--secondary-color);
 }
 
 .detail__icon {
