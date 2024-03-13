@@ -3,7 +3,7 @@
 ## Descripción
 Este proyecto es un buscador de perfiles de GitHub que permite a los usuarios buscar y visualizar perfiles de otros usuarios de GitHub. Los usuarios pueden ingresar el nombre de usuario de GitHub de la persona que desean buscar y obtener información detallada sobre ese perfil.
 
-[🔗 Ver Demostración](#)
+[🔗 Ver Demostración](https://dev-finder-nine-sigma.vercel.app/)
 
 ## Características
 - Busca perfiles de GitHub utilizando el nombre de usuario.
@@ -16,6 +16,10 @@ Este proyecto es un buscador de perfiles de GitHub que permite a los usuarios bu
 2. Ingresa el nombre de usuario de GitHub que deseas buscar en el campo de entrada.
 3. Toca el botón "Buscar" para encontrar el perfil.
 4. La aplicación mostrará la información detallada del perfil de GitHub encontrado.
+
+  ![2024-03-13 14-43-51](https://github.com/Diegojq/dev-finder/assets/137741139/7ebc369d-f135-4ffd-a228-c5077221af03)
+
+)
 
 ## Diseño "Mobile First"
 
